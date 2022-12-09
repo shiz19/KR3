@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/CLionProjects/KR3/Func.h
+iostream
+-
+locale
+-
+random
+-
+ctime
+-
+windows.h
+-
+
+C:/Users/User/CLionProjects/KR3/main.cpp
+iostream
+-
+Func.h
+C:/Users/User/CLionProjects/KR3/Func.h
+
